@@ -74,7 +74,7 @@ public class frmView extends javax.swing.JPanel {
 
             },
             new String [] {
-                "No", "Name", "Sex", "DOB", "Address", "Phone", "Title 7"
+                "No", "ID", "Name", "Sex", "DOB", "Address", "Phone", "Other"
             }
         ));
         jScrollPane1.setViewportView(t);
