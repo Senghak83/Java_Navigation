@@ -254,8 +254,7 @@ public class frmNaviga extends javax.swing.JFrame {
 
     private void lblViewCustomerMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblViewCustomerMouseClicked
         // TODO add your handling code here:
-        db = input.getAllCus();
-              
+       db = input.getAllCus();          
        v.setDB(db);
        v.ShowData(db.getAllCustomer());
 
