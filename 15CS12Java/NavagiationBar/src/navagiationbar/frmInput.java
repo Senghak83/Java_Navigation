@@ -243,6 +243,7 @@ public class frmInput extends javax.swing.JPanel {
         else if(dob.length()==0)Msg("Input Date of birth.. ",txtdob);
         else if(add.length()==0)Msg("Input Address..",txtadd);
         else if(oth.length()==0)Msg("Input Other..",txtother);
+        
         else{
             return new Customer(new Person(id,name,sex,dob,add),ph,oth);
         }

@@ -125,7 +125,8 @@ public class frmView extends javax.swing.JPanel {
 
     private void txtsearchCaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_txtsearchCaretUpdate
         // TODO add your handling code here:
-         if(txtsearch.getText().length()==0){
+        if(db!=null){ 
+        if(txtsearch.getText().length()==0){
              ShowData(db.getAllCustomer());
          }
          else{
@@ -133,7 +134,7 @@ public class frmView extends javax.swing.JPanel {
         
          this.ShowData(ls);
          }
-        
+        }
     }//GEN-LAST:event_txtsearchCaretUpdate
 
    
